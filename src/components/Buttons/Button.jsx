@@ -1,11 +1,11 @@
-import { MdMessage } from "react-icons/md";
-import { MdCall } from "react-icons/md";
+
 import style from "./Button.module.css";
-function Button(props) {
+function Button({isOutLine, icon, text,...rest}) {
   return (
-    <button className={props.isOutLine ? style.outline_btn : style.primery_btn}>
-      {props.icon}
-      {props.text}
+    <button {...rest}
+     className={isOutLine ? style.outline_btn : style.primery_btn}>
+      {icon}
+      {text}
     </button>
   );
 }

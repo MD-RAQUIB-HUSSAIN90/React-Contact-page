@@ -3,10 +3,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 14px 6px;
-  min-width: 220px;
+  padding: 12px 5px;
+  min-width: 200px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -18,10 +18,10 @@
   justify-content: center;
   gap: 10px;
   border: 1px solid black;
-  padding: 14px 6px;
+  padding: 12px 5px;
   width: 100%;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
     cursor: pointer;
 }
 
